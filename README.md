@@ -29,5 +29,5 @@ Run `git commit` to see that
   scripts are)
   * `lando drush` should have shown all available commands for,
   drush, as if you would type it into the command line.
-  * same with `lando my_script` - no output here (only initializing), not though
+  * same with `lando my_script` - no output here (even no initializing), not though
 when executed from the command line.
