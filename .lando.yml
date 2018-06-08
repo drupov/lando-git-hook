@@ -1,0 +1,12 @@
+name: test
+recipe: drupal7
+config:
+  webroot: www
+tooling:
+  my_script:
+    service: appserver
+    description: Run my script
+    cmd:
+      - /app/my_script
+    options:
+      passthrough: true
